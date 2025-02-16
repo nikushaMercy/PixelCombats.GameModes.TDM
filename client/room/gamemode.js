@@ -218,7 +218,6 @@ function SetGameMode() {
 	}
 
 	mainTimer.Restart(GameModeTime);
-	Spawns.GetContext().Despawn();
 	SpawnTeams();
 }
 function SetEndOfMatch() {
